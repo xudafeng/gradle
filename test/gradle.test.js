@@ -2,7 +2,7 @@
 
 var gradle = require('..');
 
-    gradle({
-      cwd: process.cwd()
-    });
+gradle({
+  cwd: process.cwd()
+});
 
