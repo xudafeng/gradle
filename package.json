@@ -1,6 +1,6 @@
 {
   "name": "gradle",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "gradle",
   "keywords": [
     "Node.js wrapper for gradle"
