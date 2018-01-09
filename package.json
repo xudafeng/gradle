@@ -11,23 +11,22 @@
     "url": "git://github.com/macacajs/gradle.git"
   },
   "dependencies": {
-    "win-spawn": "^2.0.0",
+    "cross-spawn": "^5.1.0",
     "xutil": "^1.0.3"
   },
   "devDependencies": {
-    "co-mocha": "*",
     "mocha": "*",
-    "should": "*",
     "jshint": "*",
     "istanbul": "*",
     "pre-commit": "*"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "istanbul cover `npm bin`/_mocha",
+    "lint": "jshint .",
+    "ci": "npm run lint && npm run test"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
   "license": "MIT"
 }
