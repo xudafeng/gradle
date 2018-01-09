@@ -3,8 +3,9 @@
 const gradle = require('..');
 const assert = require('assert');
 
-describe('test', function() {
-  it('should be ok', function() {
+describe('test', () => {
+  it('should be ok', () => {
+    assert.ok(gradle);
     gradle({
       cwd: process.cwd()
     })
