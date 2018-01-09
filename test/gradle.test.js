@@ -1,7 +1,19 @@
 'use strict';
 
-var gradle = require('..');
+const gradle = require('..');
+const assert = require('assert');
 
-gradle({
-  cwd: process.cwd()
+describe('test', function() {
+  it('should be ok', function() {
+    gradle({
+      cwd: process.cwd()
+    })
+      .then(d => {
+        console.log(d);
+      })
+      .catch(e => {
+        console.log(e);
+      });
+  });
 });
+
