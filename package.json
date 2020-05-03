@@ -1,6 +1,6 @@
 {
   "name": "gradle",
-  "version": "1.1.0",
+  "version": "1.2.3",
   "description": "gradle",
   "keywords": [
     "Node.js wrapper for gradle"
@@ -11,6 +11,7 @@
     "url": "git://github.com/macacajs/gradle.git"
   },
   "dependencies": {
+    "chalk": "^4.0.0",
     "cross-spawn": "^5.1.0"
   },
   "devDependencies": {
