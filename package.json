@@ -1,6 +1,6 @@
 {
   "name": "gradle",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "gradle",
   "keywords": [
     "Node.js wrapper for gradle"
@@ -8,14 +8,18 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/macacajs/gradle.git"
+    "url": "git://github.com/xudafeng/gradle.git"
   },
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
   "dependencies": {
     "chalk": "^4.0.0",
     "cross-spawn": "^5.1.0"
   },
   "devDependencies": {
-    "git-contributor": "^1.0.10",
+    "git-contributor": "1",
     "husky": "^1.3.1",
     "jshint": "*",
     "mocha": "*",

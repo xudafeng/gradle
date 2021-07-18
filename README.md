@@ -10,10 +10,10 @@
 
 [npm-image]: https://img.shields.io/npm/v/gradle.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/gradle
-[travis-image]: https://img.shields.io/travis/macacajs/gradle.svg?style=flat-square
-[travis-url]: https://travis-ci.org/macacajs/gradle
-[coveralls-image]: https://img.shields.io/coveralls/macacajs/gradle.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/macacajs/gradle?branch=master
+[travis-image]: https://img.shields.io/travis/xudafeng/gradle.svg?style=flat-square
+[travis-url]: https://travis-ci.org/xudafeng/gradle
+[coveralls-image]: https://img.shields.io/coveralls/xudafeng/gradle.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/xudafeng/gradle?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/gradle.svg?style=flat-square
@@ -25,11 +25,11 @@
 
 ## Contributors
 
-|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|
+|[<img src="https://avatars.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|
 | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sun Feb 17 2019 19:01:30 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Sun Jul 18 2021 11:07:34 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
